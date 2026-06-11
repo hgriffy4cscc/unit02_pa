@@ -3,6 +3,8 @@
 sandwich_orders : str = ["veggie","avocado toast","falafel","taco"]
 finished_sandwiches : str = []
 
-for each sandwich in sandwich_orders:
-    print(f{"I made your {sandwich} sandwich!"})
-    
+for sandwich in sandwich_orders:
+    print(f"I made your {sandwich} sandwich!")
+    finished_sandwiches.append(sandwich)
+
+print(f"A list of all the sandwiches made: {finished_sandwiches}")
