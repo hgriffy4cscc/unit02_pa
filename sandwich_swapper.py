@@ -7,4 +7,6 @@ for sandwich in sandwich_orders:
     print(f"I made your {sandwich} sandwich!")
     finished_sandwiches.append(sandwich)
 
+sandwich_orders = []
+
 print(f"A list of all the sandwiches made: {finished_sandwiches}")
